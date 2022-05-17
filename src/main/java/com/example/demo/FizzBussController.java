@@ -18,9 +18,9 @@ public class FizzBussController {
 	@RequestMapping(value = "/apply", method = RequestMethod.POST)
 	public ModelAndView apply(@RequestParam("num") int num, ModelAndView mv) {
 		// ここにFizzBuzz
-	if (num ==0 ) {
-		mv.addObject("result", "数値を入力してください");
-	}
+//	if (num ==0 ) {
+//		mv.addObject("result", "数値を入力してください");
+//	}
 		if (num % 3 == 0 && num % 7 == 0 && num % 5 == 0) {
 			mv.addObject("result", "FizzAssBuzz");
 		} else if (num % 7 == 0 && num % 5 == 0) {
