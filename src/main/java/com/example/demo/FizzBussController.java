@@ -39,7 +39,7 @@ public class FizzBussController {
 			mv.addObject("result", "Ass");
 		}
 		else {
-			mv.addObject("result", "う");
+			mv.addObject("result", "ふじさわああ");
 		}
 
 		// 入力した表示をもう一度表示させるためにhtmlで書いたnumに戻す
